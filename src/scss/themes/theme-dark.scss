@@ -35,8 +35,17 @@ body[data-theme="dark"] {
    header {
       background-color: #494949;
       h1 {
-         color: white;
+         color: orange;
       }
+   .title-container {
+      color: yellow;
+   }
+   .headline {
+      color: white;
+   }
+   .header-icon {
+      color: white;
+   }
    }
 
    #about {

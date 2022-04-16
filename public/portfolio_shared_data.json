@@ -6,13 +6,13 @@
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/ikyle53",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "Linkedin",
+          "url": "www.linkedin.com/in/kyle-honaker",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "kyle.jpeg"
@@ -28,16 +28,6 @@
           "name": "CSS 3",
           "class": "devicon-css3-plain",
           "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
         },
         {
           "name": "JavaScript",
@@ -57,13 +47,29 @@
         {
           "name": "C#",
           "class": "devicon-csharp-plain",
-          "level": "65"
+          "level": "10"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
+          "level": "50"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "60"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "0"
+        },
+        {
+          "name": "Swift",
+          "class": "devicon-swift-plain",
+          "level": "0"
         }
+        
       ]
     }
   }
