@@ -29,6 +29,7 @@ class Header extends Component {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      var headline = this.props.sharedData.headline;
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
@@ -109,6 +110,9 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
+              <h3 style={{width: '50%', margin: 'auto'}}>
+                {headline}
+              </h3>
               
             </div>
           </div>

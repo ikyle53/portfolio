@@ -1,7 +1,8 @@
 {
     "basic_info": {
-      "name": "Ursula Lopez",
+      "name": "Kyle Honaker",
       "titles": [ "Software Developer" ],
+      "headline": "“Suffer well!” I’ve worked some of the most dangerous jobs in the world which helped me focus on quality of work. Many know me as a servant leader and one who doesn’t shy away from hard work. I aspire to move into mobile development and create applications.",
       "social": [
         {
           "name": "github",
@@ -14,7 +15,7 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "kyle.jpeg"
     },
     "skills": {
       "icons": [
