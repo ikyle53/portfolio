@@ -1,115 +1,126 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Kyle Honaker. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Code Fellows. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "こんにちは",
+      "description": "前職は危険な仕事の一つとされている職に就いていました。全ての作業員が常に集中をしていないと命を落としてしまう危険な仕事だった為、仕事に対する集中力の質を上げる事が出来ました。リーダーシップ性があり、常に仕事に懸命に取り組むことが私の強みです。モバイルやアプリの開発を修得したいと思っております。",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "私について",
+        "projects": "プロジェクト",
+        "skills": "スキル",
+        "experience": "職歴"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Salmon Cookies",
+        "startDate": "2022",
+        "description": "This project was made using vanilla HTML, CSS, and Javascript. The web page is designed to be a landing page with descriptions describing the store. There's also a link to a table which gives sales data (random data).",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/salmon-cookies/salmonIndex.png",
+          "images/portfolio/salmon-cookies/salmonTable.png"
         ],
-        "url": "",
+        "url": "https://github.com/ikyle53/cookie-stand",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "Html"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           },
           {
             "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "name": "Javascript"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Horned Beast Gallery",
+        "startDate": "2022",
+        "description": "This web app displays images of horned beasts. Each beast card has a like button that the user can click and add likes to. When the image is clicked it will create a modal pop-up of that image that is much larger for the user to view. Lastly, it has a sorting option based on number of horns that the beasts have.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/hornedBeast/hbGall.png",
+          "images/portfolio/hornedBeast/hbSort.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/ikyle53/gallery-of-horns",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "Html"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Bus Mall App",
+        "startDate": "2022",
+        "description": "This web app displays 3 images that are unique each round. The user clicks on one and the clicks and views are recorded. At the end of the rounds a graph is displayed of the amount of clicks each image had as well as its views.",
+        "images": [
+          "images/portfolio/busMall/busMall.png",
+          "images/portfolio/busMall/graph.png"
+        ],
+        "url": "https://github.com/ikyle53/busMall",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "Html"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Ericsson",
+        "title": "タワーネットワークテクニシャン",
+        "years": "12.2019 - 03.2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "ネットワーキング"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "5G NR",
+          "光ファイバー",
+          "同軸ケーブル",
+          "クライミング",
+          "無線周波数"
+          
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "フリーランス",
+        "title": "フロントエンドエンジニア",
+        "years": "01.2017 - 12.2019",
         "mainTech": [
-          "Angular 7/8"
+          "Javascript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "HTML",
+          "CSS",
+          "Javascript",
+          "Bootstrap",
+          "React"
         ]
       }
     ]
